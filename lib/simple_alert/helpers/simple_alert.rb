@@ -1,9 +1,6 @@
 module SimpleAlert
 	module ActionViewExtensions
-		module AlertHelper
-			def alert(info, option)
-				content_tag :div, :option => option, &block
-			end
+		def simple_alert
 		end
 	end
 end
